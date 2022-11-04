@@ -1,0 +1,30 @@
+{
+    "python.analysis.typeCheckingMode": "strict",
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "python.formatting.provider": "black",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#0ec71794"
+    },
+    "python.linting.pylintPath": "venv/bin/pylint",
+    "editor.fontFamily": "Hack, Hack Nerd Font, Hack Nerd Font Mono",
+    "editor.fontSize": 14,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUnusedImport": "information",
+        "reportMissingImports": "none",
+        "reportUnknownMemberType": "none",
+        "reportMissingParameterType": "none",
+        "reportUnknownParameterType": "none",
+        "reportUnknownArgumentType": "none",
+        "reportUnknownVariableType": "none",
+        "reportGeneralTypeIssues": "none",
+        "reportUntypedBaseClass": "none",
+        "reportUnusedVariable": "information",
+        "reportUnnecessaryContains": "none"
+    }
+}

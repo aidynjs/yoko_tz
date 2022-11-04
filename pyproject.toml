@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "yoko_tz"
+version = "0.1.0"
+description = ""
+authors = ["Aidyn <jus.kz09@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.85.1"
+SQLAlchemy = "^1.4.42"
+alembic = "^1.8.1"
+strawberry-graphql = "^0.137.1"
+uvicorn = "^0.19.0"
+psycopg2 = "^2.9.5"
+pylint = "^2.15.5"
+black = "^22.10.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
